@@ -1,0 +1,71 @@
+<script type = "application/ld+json"
+class = "M4U-Home-System" > {
+        "@context": "https://schema.org",
+        "@graph": [{
+                "@type": "Organization",
+                "@id": "https://www.google.com/#organization",
+                "name": "Demo",
+                "url": "https://www.google.com/",
+                "sameAs": [],
+                "logo": {
+                    "@type": "ImageObject",
+                    "@id": "https://www.google.com/#logo",
+                    "inLanguage": "en",
+                    "url": "Google.com/image",
+                    "width": 260,
+                    "height": 194,
+                    "caption": "Google"
+                },
+                "image": {
+                    "@id": "https://www.google.com/#logo"
+                }
+            },
+            {
+                "@type": "WebSite",
+                "@id": "https://www.google.com/#website",
+                "url": "https://www.google.com/",
+                "name": "",
+                "description": "",
+                "publisher": {
+                    "@id": "https://www.google.com/#organization"
+                },
+                "potentialAction": [{
+                    "@type": "SearchAction",
+                    "target": "https://www.google.com/?s={search_term_string}",
+                    "query-input": "required name=search_term_string"
+                }],
+                "inLanguage": "en"
+            }, {
+                "@type": "ImageObject",
+                "@id": "https://www.google.com/#primaryimage",
+                "inLanguage": "en",
+                "url": "google.com/image",
+                "width": 1366,
+                "height": 367
+            },
+            {
+                "@type": "WebPage",
+                "@id": "https://www.google.com/#webpage",
+                "url": "https://www.google.com/",
+                "name": "Google",
+                "isPartOf": {
+                    "@id": "https://www.google.com/#website"
+                },
+                "about": {
+                    "@id": "https://www.google.com/#organization"
+                },
+                "primaryImageOfPage": {
+                    "@id": "https://www.google.com/#primaryimage"
+                },
+                "datePublished": "2020-09-19T10:07:12+00:00",
+                "dateModified": "2020-09-21T17:38:33+00:00",
+                "description": "\" Demo",
+                "inLanguage": "en",
+                "potentialAction": [{
+                    "@type": "ReadAction",
+                    "target": ["https://www.google.com/"]
+                }]
+            }
+        ]
+    } <
+    /script>
