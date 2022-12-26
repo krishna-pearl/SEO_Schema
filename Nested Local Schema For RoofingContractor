@@ -1,0 +1,114 @@
+<script type="application/ld+json">
+
+{
+  "@context": "https://schema.org",
+"@graph": [
+  {
+  "@type": "RoofingContractor",
+
+  "@id": "https://www.peregrineroofing.co.uk/#RoofingContractor",
+  
+  "name": "Peregrine Roofer Glasgow",
+
+  "url": "https://www.peregrineroofing.co.uk/",
+    
+  "telephone": "447745 845520",
+
+  "priceRange": "€€",
+  
+  "address": {
+
+    "@type": "PostalAddress",
+
+    "streetAddress": "Suite 2/3, Glasgow G2 1BP",
+
+    "addressLocality": "Glasgow",
+
+    "postalCode": "G2 1BP",
+
+    "addressCountry": "GB"
+
+  },
+     "image": {
+                  "@id": "https://www.peregrineroofing.co.uk/#image"
+              },
+    
+
+  "openingHoursSpecification": {
+
+    "@type": "OpeningHoursSpecification",
+
+    "dayOfWeek": [
+
+      "Monday",
+
+      "Tuesday",
+
+      "Wednesday",
+
+      "Thursday",
+
+      "Friday",
+
+      "Saturday",
+
+      "Sunday"
+
+    ],
+
+    "opens": "00:00",
+
+    "closes": "23:59"
+
+  }
+  }, 
+  
+    {
+       "@type": "ImageObject",
+      "@id": "https://www.peregrineroofing.co.uk/#image",
+  "author": "Peregrine Roofer Glasgow",
+  "contentLocation": "Glasgow",
+  "contentUrl": "https://www.peregrineroofing.co.uk/wp-content/uploads/2021/07/cropped-Artboard-2@2x-e1633116077725.png",
+   "url":"https://www.peregrineroofing.co.uk/wp-content/uploads/2021/07/cropped-Artboard-2@2x-e1633116077725.png",   
+  "datePublished": "2021-01-01",
+  "description": "Roofing Services In Glasgow",
+  "name": "Peregrine Roofer Glasgow"
+  },
+  {
+    "@type": "WebPage",
+"@id": "https://www.peregrineroofing.co.uk/#webpage",
+"headline": "Peregrine Roofing - Roofing Services In Glasgow",
+    "isPartOf": {
+                  "@id": "https://www.peregrineroofing.co.uk/#RoofingContractor"
+              },
+"url": "https://www.peregrineroofing.co.uk/",
+"about": [
+   {"@type": "Thing", "name": "Roofing", "sameAs": "https://en.wikipedia.org/wiki/Domestic_roof_construction"},
+   {"@type": "Thing", "name": "Roofing", "sameAs": "https://en.wikipedia.org/wiki/Domestic_roof_construction"},
+   {"@type": "Thing", "name": "Roofing Contractor", 
+"sameAs": "https://www.wikidata.org/wiki/Q27057193"},
+   {"@type": "Thing", "name": "Roofing Contractor", 
+"sameAs": "https://kbpedia.org/knowledge-graph/reference-concept/?uri=RoofingContractor"},
+  {"@type": "Thing", "name": "Tiled Roof", 
+"sameAs": "https://en.wikipedia.org/wiki/Roof_tiles"},
+   {"@type": "Thing", "name": "Roofer", 
+"sameAs": "https://en.wikipedia.org/wiki/Roofer"}  
+],
+"mentions": 
+    [
+   {"@type": "Thing", "name": "Roofing", "sameAs": "https://en.wikipedia.org/wiki/Domestic_roof_construction"},
+   {"@type": "Thing", "name": "Roofing", "sameAs": "https://en.wikipedia.org/wiki/Domestic_roof_construction"},
+   {"@type": "Thing", "name": "Roofing Contractor", 
+"sameAs": "https://www.wikidata.org/wiki/Q27057193"},
+   {"@type": "Thing", "name": "Roofing Contractor", 
+"sameAs": "https://kbpedia.org/knowledge-graph/reference-concept/?uri=RoofingContractor"},
+  {"@type": "Thing", "name": "Tiled Roof", 
+"sameAs": "https://en.wikipedia.org/wiki/Roof_tiles"},
+   {"@type": "Thing", "name": "Roofer", 
+"sameAs": "https://en.wikipedia.org/wiki/Roofer"}  
+]
+}
+]
+}
+
+</script>
